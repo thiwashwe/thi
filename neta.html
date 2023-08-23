@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RockLand EV Motors</title>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/Electric/assets/css/neta.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <nav>
+      <div class="navbar">
+        <i class="bx bx-menu"></i>
+        <div class="logo">
+          <a href="#">
+            <i class="ri-steering-line"></i>
+            RockLand
+          </a>
+        </div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">RockLand</span>
+            <i class="bx bx-x"></i>
+            <!-- <a href="#" class="logo-name">
+              <i class="ri-steering-line"></i>
+              RockLand EV Motors
+            </a> -->
+          </div>
+          <ul class="links">
+            <li><a href="index.html">HOME</a></li>
+            <li>
+              <a href="#">Explore Car</a>
+              <i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
+              <ul class="htmlCss-sub-menu sub-menu">
+                <li><a href="index22.html" type="button">Avaliable Cars</a></li>
+                <!-- <li><a href="#">Login Forms</a></li>
+                <li><a href="#">Card Design</a></li> -->
+                <li class="more">
+                  <a href="#">Brands</a>
+                  <i class="bx bxs-chevron-right arrow more-arrow"></i>
+
+                  <ul class="more-sub-menu sub-menu">
+                    <li><a href="BMW.html" type="button">BMW</a></li>
+                    <li><a href="porsche.html" type="button">Porsche</a></li>
+                    <li><a href="audi.html" type="button">Audi</a></li>
+                    <li><a href="#" type="button">Neta</a></li>
+                    <li><a href="mg.html" type="button">MG</a></li>
+                    <li><a href="hummer.html" type="button">HUMMER</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <!-- <li>
+              <a href="#">JAVASCRIPT</a>
+              <i class="bx bxs-chevron-down js-arrow arrow"></i>
+              <ul class="js-sub-menu sub-menu">
+                <li><a href="#">Dynamic Clock</a></li>
+                <li><a href="#">Form Validation</a></li>
+                <li><a href="#">Card Slider</a></li>
+                <li><a href="#">Complete Website</a></li>
+              </ul>
+            </li> -->
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="tel:09965128567">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="search-box">
+          <i class="bx bx-search"></i>
+          <div class="input-box">
+            <input type="text" placeholder="Search..." />
+          </div>
+        </div>
+        <a href="login2.html" class="btn user-btn" aria-label="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <!-- 
+        - #FEATURED CAR
+      -->
+
+        <section class="section featured-car" id="featured-car">
+          <div class="container">
+            <div class="title-wrapper">
+              <!-- <h2 class="h2 section-title">Featured cars</h2> -->
+            </div>
+
+            <ul class="featured-car-list">
+              <!-- <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev1.jpg"
+                      alt="Porsche Taycan"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Porsche Taycan Turbo S </a>
+                      </h3>
+
+                      <data class="year" value="2021">2019</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">93.4 kWh (419 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price"><strong>$88,150</strong></p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+
+              <!-- <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev15.webp"
+                      alt="BMW i5 eDrive40"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">BMW i5 eDrive40</a>
+                      </h3>
+
+                      <data class="year" value="2019">2023</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">81.2 kWh(582 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>$66,800</strong>
+                      </p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+              <!-- 
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev6.jpg"
+                      alt="MG 4"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">MG 4</a>
+                      </h3>
+
+                      <data class="year" value="2020">2022</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text"> 77kWh(520 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price"><strong>$43,990</strong></p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+              <!-- 
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev7.jpg"
+                      alt="MG ZS "
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">MG ZS</a>
+                      </h3>
+
+                      <data class="year" value="2020">2022</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text"> 72.6 kWh(440 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price"><strong>$55,990</strong></p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+              <!-- 
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev11.jpg"
+                      alt="MG Marvel R"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">MG Marvel R</a>
+                      </h3>
+
+                      <data class="year" value="2021">2023</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">70kWh (402 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>$37,000</strong>
+                      </p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev12.jpg"
+                      alt="NETA U Pro"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#"> NETA U Pro</a>
+                      </h3>
+
+                      <data class="year" value="2019">2020</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">82 kWh(611 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price"><strong>$27,200</strong></p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev13.jpg"
+                      alt="NETA V"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">NETA V</a>
+                      </h3>
+
+                      <data class="year" value="2019">2022</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">38.5 kWh(401 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price"><strong>$14,200</strong></p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev14.jpg"
+                      alt="Audi SQ8 e-tron"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Audi SQ8 e-tron</a>
+                      </h3>
+
+                      <data class="year" value="2019">2019</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">106 kWh (494 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>$95,000</strong>
+                      </p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+
+              <!-- <li>
+                <div class="featured-car-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/rockev16.webp"
+                      alt=" Audi Q4 e-tron"
+                      loading="lazy"
+                      width="440"
+                      height="300"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Audi Q4 e-tron</a>
+                      </h3>
+
+                      <data class="year" value="2019">2023</data>
+                    </div>
+
+                    <ul class="card-list">
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+
+                        <span class="card-item-text">4 People</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+
+                        <span class="card-item-text">Electric</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+
+                        <span class="card-item-text">77 kWh(380 km)</span>
+                      </li>
+
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                        <span class="card-item-text">Automatic</span>
+                      </li>
+                    </ul>
+
+                    <div class="card-price-wrapper">
+                      <p class="card-price">
+                        <strong>$53,800</strong>
+                      </p>
+
+                      <button
+                        class="btn fav-btn"
+                        aria-label="Add to favourite list"
+                      >
+                        <ion-icon name="heart-outline"></ion-icon>
+                      </button>
+
+                      <a href="/Electric/billingform.html" class="btn"
+                        ><i class="ri-shopping-cart-fill"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #GET START
+      -->
+
+        <!-- 
+        - #BLOG
+      -->
+
+        >
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <i class="ri-steering-line"></i>
+              RockLand EV Motors
+            </a>
+
+            <p class="footer-text">
+              Search for Electric cars in Myanmar. With a diverse fleet of
+              19,000 vehicles, Waydex offers its consumers an attractive and fun
+              selection.If you another barnd in Electric cars, we will make
+              preorder to our source.
+            </p>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About us</a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="footer-link">Pricing plans</a>
+            </li> -->
+
+            <li>
+              <a href="#" class="footer-link">Our blog</a>
+            </li>
+
+            <li>
+              <a href="tel:09965128567" class="footer-link">Contacts</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Support</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Help center</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Ask a question</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & conditions</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Other Branchs of Our Showroom</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Nay Pyi Taw (Head Quarter)</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Yangon</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mandalay</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pathein</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Pyay</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Taunggyi</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Taungoo</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Bago</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-skype"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            &copy; 2023 <a href="#">RockLand EV Motors</a>. All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="/Electric/assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
