@@ -953,9 +953,9 @@ nav .navbar .links li:hover .js-sub-menu {
   justify-content: center;
   align-items: center;
   padding: 30px;
-  height: 130vh;
+  /* height: 130vh; */
   background: linear-gradient(90deg, #f8fcfd 60%, #f8fcfd 40.1%);
-
+  margin-top: 30px;
   width: 100vw;
 }
 
