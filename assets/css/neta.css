@@ -813,6 +813,12 @@ nav .navbar .links li:hover .js-sub-menu {
   --background: var(--lavender-blush);
   --color: var(--red-salsa);
 }
+.w-100 {
+  transition: all ease 0.5s;
+}
+.w-100:hover {
+  transform: scale(1.1);
+}
 
 /*-----------------------------------*\
   #GET START
