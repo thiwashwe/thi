@@ -1,9 +1,11 @@
 body {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .main {
   padding: 0 3rem 3rem 3rem;
+  padding-bottom: 15rem;
+  padding-top: 3rem;
   margin-top: 90px;
 }
 
@@ -29,6 +31,11 @@ body {
 
 .what {
   font-size: 2rem;
+  text-align: center;
+}
+.vision {
+  border-bottom: 2px solid hsl(204, 91%, 53%);
+  padding: 0;
 }
 
 .myImg {
@@ -36,6 +43,7 @@ body {
   width: 600px;
   object-fit: cover;
   border-radius: 20px;
+  margin-top: 35px;
 }
 
 .read-more {
