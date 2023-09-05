@@ -58,6 +58,7 @@ body {
   border-bottom: 2px solid hsl(204, 91%, 53%);
   width: 200px;
 }
+
 /* nav */
 * {
   margin: 0;
@@ -362,6 +363,11 @@ nav .navbar .links li:hover .js-sub-menu {
     height: 400px;
     width: 100%;
     object-fit: cover;
+  }
+}
+@media screen and (max-width: 760px) {
+  .aboutUs {
+    align-items: center;
   }
 }
 /* nav and footer*/
